@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerTest", "SwaggerTest\SwaggerTest.csproj", "{527CF046-11A3-4FEC-8E1A-EC662F5B3D80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerTest.DAL", "SwaggerTest.DAL\SwaggerTest.DAL.csproj", "{70703DA5-4CC5-4A17-974F-2C9F8EEF4D2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerTest.Models", "SwaggerTest.Models\SwaggerTest.Models.csproj", "{30EF9F94-486E-4912-8DE0-1913AC3A551A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerTest.Common", "SwaggerTest.Common\SwaggerTest.Common.csproj", "{C16E53AC-AC39-44FA-926F-B13DE5C97E5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerTest.BusinessLogic", "SwaggerTest.BusinessLogic\SwaggerTest.BusinessLogic.csproj", "{F6C5DB22-0E66-4CDE-AC15-A173A39256A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerTest.Dependencies", "SwaggerTest.Dependencies\SwaggerTest.Dependencies.csproj", "{D00D8EB9-3CD8-4916-B48D-C2180FCF361D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerTest.Mapper", "SwaggerTest.Mapper\SwaggerTest.Mapper.csproj", "{0A19F2BB-6F16-427D-84F6-4E1BF3F1FFF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{527CF046-11A3-4FEC-8E1A-EC662F5B3D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527CF046-11A3-4FEC-8E1A-EC662F5B3D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527CF046-11A3-4FEC-8E1A-EC662F5B3D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527CF046-11A3-4FEC-8E1A-EC662F5B3D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70703DA5-4CC5-4A17-974F-2C9F8EEF4D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70703DA5-4CC5-4A17-974F-2C9F8EEF4D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70703DA5-4CC5-4A17-974F-2C9F8EEF4D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70703DA5-4CC5-4A17-974F-2C9F8EEF4D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EF9F94-486E-4912-8DE0-1913AC3A551A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EF9F94-486E-4912-8DE0-1913AC3A551A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EF9F94-486E-4912-8DE0-1913AC3A551A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EF9F94-486E-4912-8DE0-1913AC3A551A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16E53AC-AC39-44FA-926F-B13DE5C97E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16E53AC-AC39-44FA-926F-B13DE5C97E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16E53AC-AC39-44FA-926F-B13DE5C97E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16E53AC-AC39-44FA-926F-B13DE5C97E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C5DB22-0E66-4CDE-AC15-A173A39256A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C5DB22-0E66-4CDE-AC15-A173A39256A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C5DB22-0E66-4CDE-AC15-A173A39256A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C5DB22-0E66-4CDE-AC15-A173A39256A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00D8EB9-3CD8-4916-B48D-C2180FCF361D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00D8EB9-3CD8-4916-B48D-C2180FCF361D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00D8EB9-3CD8-4916-B48D-C2180FCF361D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00D8EB9-3CD8-4916-B48D-C2180FCF361D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A19F2BB-6F16-427D-84F6-4E1BF3F1FFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A19F2BB-6F16-427D-84F6-4E1BF3F1FFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A19F2BB-6F16-427D-84F6-4E1BF3F1FFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A19F2BB-6F16-427D-84F6-4E1BF3F1FFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74F0306D-3F65-4B66-BE86-9DD6978BDFD8}
+	EndGlobalSection
+EndGlobal

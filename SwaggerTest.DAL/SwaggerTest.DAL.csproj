@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SwaggerTest.Common\SwaggerTest.Common.csproj" />
+    <ProjectReference Include="..\SwaggerTest.Models\SwaggerTest.Models.csproj" />
+  </ItemGroup>
+
+</Project>
